@@ -5,3 +5,5 @@ https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/manifest.json/t
 
 Color keywords are based on:
 https://developer.mozilla.org/docs/Web/CSS/color_value/color_keywords
+
+![](screenshot/main.png)
