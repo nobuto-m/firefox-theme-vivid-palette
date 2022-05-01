@@ -12,6 +12,7 @@
       "frame": "lime",
       "frame_inactive": "olive",
       "ntp_background": "yellow",
+      "ntp_card_background": "darkslategray",
       "ntp_text": "navy",
       "popup": "blue",
       "popup_border": "teal",
