@@ -10,4 +10,4 @@ randomize:
 	@paste -d : \
 	    <(cat manifest.json | jq '.theme.colors | keys[]') \
 	    <(grep -v '^#' colors.list | cut -d' ' -f1 | sort -R) \
-	    | sed -e '/^:/d;s/:/: /;s/^/      /'
+	    | sed -e '/^:/d' -e 's/:/: /' -e 's/$$/,/' -e 's/^/      /'
